@@ -8,5 +8,4 @@ systemctl enable httpd
 echo "current user $(whoami)"
 sudo su
 echo "<h2>Web server running at $(hostname -f)</h2>" > /var/www/html/index.html
-exit
 echo "current user $(whoami)"
